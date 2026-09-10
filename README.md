@@ -3,6 +3,11 @@
 **Smart India Hackathon 2026 · PS26132**  
 Farm-gate price discovery and explainable buyer matching for Maharashtra crops.
 
+<<<<<<< HEAD
+=======
+**Repo:** https://github.com/aashiposwal/sih26132
+
+>>>>>>> fee23e5151d6cf656fa29447de8766cb5437dd10
 Kshetra is a working proof-of-concept. A farmer sees a **local mandi forecast** and a **sale window**, lists a lot at a price they choose, and ranked buyers come back with an **explainable match score** plus a **digital price-lock** (kachi parchi replacement).
 
 ## Problem

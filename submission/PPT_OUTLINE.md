@@ -43,5 +43,9 @@ Use the official SIH template. Do not add extra slides. Paste and shorten.
 ## Slide 6 — References / next
 - Agmarknet / data.gov.in mandi prices
 - Maharashtra district mandis (Lasalgaon onion, Latur soybean, …)
+<<<<<<< HEAD
 - Repo: *add GitHub URL after you push*
+=======
+- Repo: https://github.com/aashiposwal/sih26132
+>>>>>>> fee23e5151d6cf656fa29447de8766cb5437dd10
 - Next: live Agmarknet ingest, CV grade from lot photo, FPO bulk lots, Marathi UI
