@@ -1,0 +1,16 @@
+{
+  "intercept": -2.6026430053477996,
+  "weights": {
+    "price": 2.909187170491583,
+    "distance": 2.377584690259019,
+    "quality": 1.3431760983460441,
+    "reliability": 1.0669209230404317
+  },
+  "trained_on": "synthetic_v1",
+  "n_samples": 2000,
+  "metrics": {
+    "accuracy": 0.825,
+    "log_loss": 0.39942974012186355,
+    "roc_auc": 0.8411038799388313
+  }
+}

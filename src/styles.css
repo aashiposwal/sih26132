@@ -1,0 +1,83 @@
+@import "tailwindcss";
+
+@theme {
+  --color-bg: #fdfbf7;
+  --color-surface: #ffffff;
+  --color-surface-2: #fafac8;
+  --color-ink: #1e293b;
+  --color-muted: #334155;
+  --color-subtle: #3f4f63;
+  --color-line: #1e293b;
+  --color-line-strong: #1e293b;
+  --color-accent: #1e4620;
+  --color-accent-2: #16351a;
+  --color-accent-fg: #fdfbf7;
+  --color-soil: #4a3728;
+  --color-warn: #d97706;
+  --color-danger: #9f1239;
+  --color-ok: #1e4620;
+
+  --font-sans: "Atkinson Hyperlegible", "Noto Sans", "Noto Sans Devanagari", "Segoe UI", system-ui, sans-serif;
+  --font-serif: "Atkinson Hyperlegible", "Noto Sans", "Segoe UI", system-ui, sans-serif;
+  --font-mono: "Atkinson Hyperlegible", "Noto Sans Mono", ui-monospace, monospace;
+
+  --radius-xs: 4px;
+  --radius-sm: 6px;
+  --radius-md: 8px;
+  --radius-lg: 10px;
+  --radius-xl: 12px;
+
+  --shadow-soft: none;
+}
+
+@layer base {
+  html {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-size: 18px;
+  }
+
+  html,
+  body,
+  #app {
+    min-height: 100%;
+    background: var(--color-bg);
+    color: var(--color-ink);
+  }
+
+  body {
+    font-family: var(--font-sans);
+    font-weight: 500;
+    line-height: 1.55;
+    letter-spacing: 0.01em;
+  }
+
+  h1,
+  h2,
+  h3 {
+    font-family: var(--font-sans);
+    font-weight: 700;
+    text-wrap: balance;
+    letter-spacing: 0;
+    line-height: 1.25;
+  }
+
+  p {
+    text-wrap: pretty;
+  }
+
+  button:not(:disabled),
+  [role="button"]:not(:disabled) {
+    cursor: pointer;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
